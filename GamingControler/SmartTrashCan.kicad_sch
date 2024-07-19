@@ -4,16 +4,6 @@
 	(generator_version "8.0")
 	(uuid "9611717d-9d3d-4fdc-bfe0-f0ab8ae72fc1")
 	(paper "A4")
-	(title_block
-		(title "Smart Trashcan")
-		(date "2024-07-19")
-		(rev "v0")
-		(company "UNIZA")
-		(comment 1 "Author: Michal Kubascik")
-		(comment 2 "Final evaluation will be used to identification for garbage collectors.")
-		(comment 3 "Module will evaluate quality of inside air.")
-		(comment 4 "PCB based on ESP32 module for evaluating percentage of use of trashcan.")
-	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -3421,7 +3411,7 @@
 		(uuid "4ba53c76-8ecf-4924-984e-4a9e13a36f0c")
 	)
 	(junction
-		(at 156.21 125.73)
+		(at 96.52 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5336a880-d687-49a0-90f8-eb35c1d90472")
@@ -3475,7 +3465,7 @@
 		(uuid "991a3827-8b91-4e14-9950-49e10ded869f")
 	)
 	(junction
-		(at 156.21 156.21)
+		(at 96.52 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d3abea2-6204-4fd4-8ffb-c721b45d117f")
@@ -3493,7 +3483,7 @@
 		(uuid "ad00c780-30dc-4bff-94da-37223c68d726")
 	)
 	(junction
-		(at 157.48 125.73)
+		(at 97.79 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add627dd-3c5c-4615-83c2-915382d72ac6")
@@ -3581,7 +3571,7 @@
 		(uuid "5e10560d-9c7e-4790-8ca7-69af7cfaf628")
 	)
 	(no_connect
-		(at 171.45 148.59)
+		(at 111.76 142.24)
 		(uuid "7f651379-70b4-4b83-9deb-807e2f9322b5")
 	)
 	(no_connect
@@ -3609,7 +3599,7 @@
 		(uuid "d603129b-5769-4dde-82d0-34c2b9bfb56e")
 	)
 	(no_connect
-		(at 171.45 133.35)
+		(at 111.76 127)
 		(uuid "dc25b6b2-714c-42ba-8aa2-bd45e84f5e8b")
 	)
 	(no_connect
@@ -3652,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 125.73) (xy 157.48 125.73)
+			(xy 96.52 119.38) (xy 97.79 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3752,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 125.73) (xy 153.67 125.73)
+			(xy 96.52 119.38) (xy 93.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +3802,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 158.75 125.73)
+			(xy 97.79 119.38) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3822,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 156.21) (xy 156.21 156.21)
+			(xy 99.06 149.86) (xy 96.52 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 156.21) (xy 153.67 156.21)
+			(xy 96.52 149.86) (xy 93.98 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4062,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 123.19) (xy 156.21 125.73)
+			(xy 96.52 116.84) (xy 96.52 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4343,18 +4333,6 @@
 		(uuid 52aa8654-0506-4198-98e6-7405d0ad8aa7)
 	)
 	(rectangle
-		(start 135.89 115.57)
-		(end 182.88 162.56)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5b45f86c-11a9-4d42-a990-2dcf99c78ab8)
-	)
-	(rectangle
 		(start 140.97 90.17)
 		(end 182.88 114.3)
 		(stroke
@@ -4429,16 +4407,6 @@
 			)
 		)
 		(uuid "96f694ee-3956-46eb-a0d6-0ebc62f4e711")
-	)
-	(text "Quality of air"
-		(exclude_from_sim no)
-		(at 171.958 160.528 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "97412111-3280-4a02-ae46-d5e7cf071da1")
 	)
 	(global_label "I2C_SCL"
 		(shape input)
@@ -4684,7 +4652,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 171.45 143.51 0)
+		(at 111.76 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4694,7 +4662,7 @@
 		)
 		(uuid "354440d6-5313-4ec4-8057-43aa1a0740d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.0552 143.51 0)
+			(at 122.3652 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +4982,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 171.45 138.43 0)
+		(at 111.76 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5024,7 +4992,7 @@
 		)
 		(uuid "d439e9e3-279f-4716-9a45-6f9cfab0e202")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.9947 138.43 0)
+			(at 122.3047 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5241,7 @@
 	)
 	(symbol
 		(lib_id "Sensor:BME680")
-		(at 156.21 140.97 0)
+		(at 96.52 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5282,7 +5250,7 @@
 		(fields_autoplaced yes)
 		(uuid "083f88eb-4718-41e1-b765-61816b3ae3ed")
 		(property "Reference" "U4"
-			(at 145.2881 139.7578 0)
+			(at 85.5981 133.4078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5259,7 @@
 			)
 		)
 		(property "Value" "BME680"
-			(at 145.2881 142.1821 0)
+			(at 85.5981 135.8321 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5268,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-			(at 193.04 152.4 0)
+			(at 133.35 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5277,7 @@
 			)
 		)
 		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
-			(at 156.21 146.05 0)
+			(at 96.52 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5286,7 @@
 			)
 		)
 		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 156.21 140.97 0)
+			(at 96.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 156.21 0)
+		(at 96.52 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6063,7 +6031,7 @@
 		(fields_autoplaced yes)
 		(uuid "363e509e-f69b-4fa1-8e9b-de05799e34fb")
 		(property "Reference" "#PWR030"
-			(at 156.21 162.56 0)
+			(at 96.52 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 160.3431 0)
+			(at 96.52 153.9931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 156.21 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 156.21 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 156.21 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +6820,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 125.73 0)
+		(at 105.41 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6861,7 +6829,7 @@
 		(fields_autoplaced yes)
 		(uuid "61dacdd9-4168-417c-a850-13ba18c837bd")
 		(property "Reference" "#PWR031"
-			(at 165.1 132.08 0)
+			(at 105.41 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6838,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 129.8631 0)
+			(at 105.41 123.5131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +6846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 125.73 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 125.73 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 125.73 0)
+			(at 105.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +6956,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 156.21 123.19 0)
+		(at 96.52 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6997,7 +6965,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d3552e4-52d6-48f8-8255-d20e9a7cae70")
 		(property "Reference" "#PWR029"
-			(at 156.21 127 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +6974,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 156.21 119.0569 0)
+			(at 96.52 112.7069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +6982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 123.19 0)
+			(at 96.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +6991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 123.19 0)
+			(at 96.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 123.19 0)
+			(at 96.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9711,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 125.73 90)
+		(at 101.6 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9751,7 +9719,7 @@
 		(dnp no)
 		(uuid "fa11d0b5-37b4-4c78-8797-b1ae950bfaa5")
 		(property "Reference" "C11"
-			(at 163.068 120.142 90)
+			(at 103.378 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9760,7 +9728,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 163.83 122.174 90)
+			(at 104.14 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 124.7648 0)
+			(at 105.41 118.4148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 125.73 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,7 +9755,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 125.73 0)
+			(at 101.6 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
