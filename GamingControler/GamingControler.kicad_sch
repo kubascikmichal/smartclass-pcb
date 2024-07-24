@@ -2667,231 +2667,6 @@
 				)
 			)
 		)
-		(symbol "Sensor:BME680"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BME680"
-				(at 7.62 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-				(at 36.83 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Bosch gas pressure humidity temperature environment environmental measurement digital"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LGA*3x3mm*P0.8mm*Clockwise*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BME680_0_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BME680_1_1"
-				(pin power_in line
-					(at -2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -3411,12 +3186,6 @@
 		(uuid "4ba53c76-8ecf-4924-984e-4a9e13a36f0c")
 	)
 	(junction
-		(at 96.52 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5336a880-d687-49a0-90f8-eb35c1d90472")
-	)
-	(junction
 		(at 158.75 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3465,12 +3234,6 @@
 		(uuid "991a3827-8b91-4e14-9950-49e10ded869f")
 	)
 	(junction
-		(at 96.52 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d3abea2-6204-4fd4-8ffb-c721b45d117f")
-	)
-	(junction
 		(at 238.76 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3481,12 +3244,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad00c780-30dc-4bff-94da-37223c68d726")
-	)
-	(junction
-		(at 97.79 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "add627dd-3c5c-4615-83c2-915382d72ac6")
 	)
 	(junction
 		(at 237.49 114.3)
@@ -3571,10 +3328,6 @@
 		(uuid "5e10560d-9c7e-4790-8ca7-69af7cfaf628")
 	)
 	(no_connect
-		(at 111.76 142.24)
-		(uuid "7f651379-70b4-4b83-9deb-807e2f9322b5")
-	)
-	(no_connect
 		(at 173.99 43.18)
 		(uuid "80aaece0-12c0-4ef3-ad49-aa4b14fcba5e")
 	)
@@ -3597,10 +3350,6 @@
 	(no_connect
 		(at 173.99 58.42)
 		(uuid "d603129b-5769-4dde-82d0-34c2b9bfb56e")
-	)
-	(no_connect
-		(at 111.76 127)
-		(uuid "dc25b6b2-714c-42ba-8aa2-bd45e84f5e8b")
 	)
 	(no_connect
 		(at 173.99 50.8)
@@ -3639,16 +3388,6 @@
 			(type default)
 		)
 		(uuid "128b12ac-abce-4fa0-ab43-46ba5548f60c")
-	)
-	(wire
-		(pts
-			(xy 96.52 119.38) (xy 97.79 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ed3bac-c01d-4693-824c-066f01addaf9")
 	)
 	(wire
 		(pts
@@ -3742,16 +3481,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 119.38) (xy 93.98 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d5935e1-f1a2-4bfb-8726-ccb1ea2c936e")
-	)
-	(wire
-		(pts
 			(xy 236.22 31.75) (xy 236.22 27.94)
 		)
 		(stroke
@@ -3799,26 +3528,6 @@
 			(type default)
 		)
 		(uuid "47385af2-6005-4b72-8114-2c38db547d93")
-	)
-	(wire
-		(pts
-			(xy 97.79 119.38) (xy 99.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b01872d-076e-4d3d-81f7-bfabd7096ed4")
-	)
-	(wire
-		(pts
-			(xy 99.06 149.86) (xy 96.52 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e003d91-df09-4664-86d2-69be9ccd6c36")
 	)
 	(wire
 		(pts
@@ -3909,16 +3618,6 @@
 			(type default)
 		)
 		(uuid "7934592f-946e-4775-a3ff-3037bd371e74")
-	)
-	(wire
-		(pts
-			(xy 96.52 149.86) (xy 93.98 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa67367-b2ae-4eae-b386-a59b39204a9b")
 	)
 	(wire
 		(pts
@@ -4049,16 +3748,6 @@
 			(type default)
 		)
 		(uuid "b328ac61-a61b-443d-910f-0aa17ea8715b")
-	)
-	(wire
-		(pts
-			(xy 96.52 116.84) (xy 96.52 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b63172a6-59a3-4cab-9afd-a082f6fc7c83")
 	)
 	(wire
 		(pts
@@ -4650,28 +4339,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 111.76 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "354440d6-5313-4ec4-8057-43aa1a0740d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.3652 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUSA"
 		(shape input)
 		(at 236.22 27.94 90)
@@ -4980,28 +4647,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 111.76 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d439e9e3-279f-4716-9a45-6f9cfab0e202")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.3047 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_UART_TX"
 		(shape input)
 		(at 173.99 27.94 0)
@@ -5140,7 +4785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias"
 			(at 193.04 77.47 0)
 			(effects
 				(font
@@ -5240,94 +4885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor:BME680")
-		(at 96.52 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "083f88eb-4718-41e1-b765-61816b3ae3ed")
-		(property "Reference" "U4"
-			(at 85.5981 133.4078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BME680"
-			(at 85.5981 135.8321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-			(at 133.35 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf"
-			(at 96.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 96.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0ebadaac-a752-4f30-a2c0-918cb7abd265")
-		)
-		(pin "5"
-			(uuid "33e33902-65fe-48cd-9748-373f38166844")
-		)
-		(pin "3"
-			(uuid "48d7fc4b-70c6-4d3f-98da-9f8329703ca1")
-		)
-		(pin "7"
-			(uuid "5130d375-2973-45a4-817b-00987ad16818")
-		)
-		(pin "2"
-			(uuid "a54aad2e-6589-4d4f-8f1a-2b48851e2046")
-		)
-		(pin "6"
-			(uuid "c6e8e757-3a37-4b48-abf2-c8e218ca57ad")
-		)
-		(pin "8"
-			(uuid "c3abdfaa-69f8-4341-b867-7d571ce47a1f")
-		)
-		(pin "1"
-			(uuid "ea602a85-0bf5-41ce-98d4-69641db6b1cc")
-		)
-		(instances
-			(project ""
-				(path "/9611717d-9d3d-4fdc-bfe0-f0ab8ae72fc1"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AZ1117-3.3")
 		(at 160.02 97.79 0)
 		(unit 1)
@@ -5353,7 +4910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -5425,7 +4982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 129.54 42.418 90)
 			(effects
 				(font
@@ -5560,7 +5117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.37 18.0848 0)
 			(effects
 				(font
@@ -5627,7 +5184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 236.22 121.158 90)
 			(effects
 				(font
@@ -5695,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 259.08 55.88 0)
 			(effects
 				(font
@@ -5846,7 +5403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 210.82 152.4 0)
 			(effects
 				(font
@@ -6021,72 +5578,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "363e509e-f69b-4fa1-8e9b-de05799e34fb")
-		(property "Reference" "#PWR030"
-			(at 96.52 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 153.9931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fde4d620-6791-4660-828d-5d904af18560")
-		)
-		(instances
-			(project "SmartTrashCan"
-				(path "/9611717d-9d3d-4fdc-bfe0-f0ab8ae72fc1"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 177.8 53.34 90)
 		(unit 1)
@@ -6112,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 177.8 55.118 90)
 			(effects
 				(font
@@ -6179,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 234.95 38.608 90)
 			(effects
 				(font
@@ -6578,7 +6069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 263.8552 63.5 0)
 			(effects
 				(font
@@ -6819,72 +6310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61dacdd9-4168-417c-a850-13ba18c837bd")
-		(property "Reference" "#PWR031"
-			(at 105.41 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 123.5131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abdb21f4-38eb-4dcf-b4e4-acbbd9a49687")
-		)
-		(instances
-			(project "SmartTrashCan"
-				(path "/9611717d-9d3d-4fdc-bfe0-f0ab8ae72fc1"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1.5KExxCA")
 		(at 260.35 35.56 90)
 		(unit 1)
@@ -6912,7 +6337,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 265.43 35.56 0)
 			(effects
 				(font
@@ -6949,72 +6374,6 @@
 			(project "SmartTrashCan"
 				(path "/9611717d-9d3d-4fdc-bfe0-f0ab8ae72fc1"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d3552e4-52d6-48f8-8255-d20e9a7cae70")
-		(property "Reference" "#PWR029"
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 96.52 112.7069 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "471b8c70-ac7f-4f61-b160-2436c1a01a70")
-		)
-		(instances
-			(project ""
-				(path "/9611717d-9d3d-4fdc-bfe0-f0ab8ae72fc1"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7263,7 +6622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 217.17 46.99 0)
 			(effects
 				(font
@@ -7508,7 +6867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 218.44 129.54 0)
 			(effects
 				(font
@@ -7623,7 +6982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 266.7 118.11 0)
 			(effects
 				(font
@@ -7692,7 +7051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 57.15 103.8352 0)
 			(effects
 				(font
@@ -7893,7 +7252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.4452 39.37 0)
 			(effects
 				(font
@@ -7962,7 +7321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 265.1252 146.05 0)
 			(effects
 				(font
@@ -8031,7 +7390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.31 20.6248 0)
 			(effects
 				(font
@@ -8232,7 +7591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 254 118.11 0)
 			(effects
 				(font
@@ -8299,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 234.95 41.148 90)
 			(effects
 				(font
@@ -8368,7 +7727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 139.3952 48.26 0)
 			(effects
 				(font
@@ -8437,7 +7796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 135.128 44.45 90)
 			(effects
 				(font
@@ -8573,7 +7932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 28.702 24.13 90)
 			(effects
 				(font
@@ -8641,7 +8000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 35.56 93.98 0)
 			(effects
 				(font
@@ -8775,7 +8134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 260.35 138.43 0)
 			(effects
 				(font
@@ -8863,7 +8222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 174.9552 105.41 0)
 			(effects
 				(font
@@ -8930,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 209.55 69.85 0)
 			(effects
 				(font
@@ -8999,7 +8358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 259.08 35.56 0)
 			(effects
 				(font
@@ -9265,7 +8624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 252.73 35.56 0)
 			(effects
 				(font
@@ -9399,7 +8758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.78 29.718 90)
 			(effects
 				(font
@@ -9600,7 +8959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.0152 105.41 0)
 			(effects
 				(font
@@ -9667,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 236.22 123.698 90)
 			(effects
 				(font
@@ -9711,75 +9070,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa11d0b5-37b4-4c78-8797-b1ae950bfaa5")
-		(property "Reference" "C11"
-			(at 103.378 113.792 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 104.14 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 118.4148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86609372-4adf-4ef4-8c2a-2044ec7d7390")
-		)
-		(pin "1"
-			(uuid "80207262-811d-4114-8ded-f89cab3da838")
-		)
-		(instances
-			(project "SmartTrashCan"
-				(path "/9611717d-9d3d-4fdc-bfe0-f0ab8ae72fc1"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 35.56 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9805,7 +9095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.75 103.8352 0)
 			(effects
 				(font
@@ -9874,7 +9164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 260.35 118.11 0)
 			(effects
 				(font
@@ -9942,7 +9232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 60.96 93.98 0)
 			(effects
 				(font
